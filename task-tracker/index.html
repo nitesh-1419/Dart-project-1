@@ -2,37 +2,54 @@
 <html>
 <head>
     <title>Dart Task-Tracker Deployment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
-        pre { background: #f4f4f4; padding: 20px; border-radius: 8px; }
-        a { color: #1a73e8; }
+        * { box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;
+            overflow-x: hidden;
+        }
+        h1, h2 { color: #1a1a1a; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        pre { 
+            background: #f8f9fa; padding: 24px; border-radius: 12px; 
+            font-family: 'Courier New', monospace; white-space: pre-wrap; 
+            overflow-x: auto; max-height: 300px;
+        }
+        ul { padding-left: 20px; }
+        a { color: #1a73e8; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .download-btn { display: inline-block; background: #2ea44f; color: white; padding: 12px 24px; border-radius: 6px; margin: 5px 0; }
     </style>
 </head>
 <body>
-    <h1>🚀 Dart CLI Task-Tracker - Live Demo Site</h1>
-    <p>This is a <strong>CLI app</strong> (console). Download exe for full experience!</p>
+    <h1>🚀 Dart CLI Task-Tracker - Live Deployment</h1>
+    <p>Professional <strong>Dart CLI Todo App</strong>. Download standalone exe!</p>
     
-    <h2>Downloads</h2>
+    <h2>📥 Quick Downloads</h2>
+    <a href="task-tracker.exe" download class="download-btn">↓ task-tracker.exe (Windows)</a>
+    <br>
+    <a href="run.bat" download class="download-btn">↓ run.bat (Launcher)</a>
+    
+    <h2>🔗 Links</h2>
     <ul>
-        <li><a href="task-tracker.exe" download>Download task-tracker.exe</a> (Standalone Windows)</li>
-        <li><a href="run.bat" download>Download run.bat</a> (Launcher)</li>
-        <li><a href="README.md" download>README.md</a> (Full Guide)</li>
+        <li><a href="README.md" download>📖 Full Guide (README)</a></li>
+        <li><a href="https://github.com/nitesh-1419/Dart-project-1/releases/latest">🎯 GitHub Releases</a></li>
+        <li><a href="https://github.com/nitesh-1419/Dart-project-1">📂 Source Repo</a></li>
     </ul>
     
-    <h2>GitHub Releases</h2>
-    <p><a href="https://github.com/nitesh-1419/Dart-project-1/releases/latest">Latest Release v1.0.1</a></p>
-    
-    <h2>Demo</h2>
-    <pre>
-==== TO-DO MENU ====
-1. Add Task
-2. View Tasks  
+    <h2>🖥️ Console Demo</h2>
+    <pre>==== TO-DO MENU ====
+1. Add Task     [High/Med/Low priority]
+2. View Tasks   [✅ Completed status]
 3. Mark Complete
 4. Delete Task
-5. Sort by Priority
-6. Exit
-    </pre>
+5. Sort Priority
+6. Exit</pre>
     
-    <p><strong>Repo:</strong> <a href="https://github.com/nitesh-1419/Dart-project-1">Dart-project-1</a></p>
+    <p style="margin-top: 40px; font-size: 0.9em; color: #666;">
+        Deployed via GitHub Pages | Dart CLI Excellence 🚀
+    </p>
 </body>
 </html>
