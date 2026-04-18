@@ -1,9 +1,0 @@
-name: expense_tracker
-description: "Pure Dart CLI Expense Tracker app."
-version: 1.0.0+1
-
-environment:
-  sdk: ^3.11.4
-
-dev_dependencies:
-  lints: ^6.0.0
