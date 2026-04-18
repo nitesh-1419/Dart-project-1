@@ -1,2 +1,0 @@
-# Vercel Deployment Plan for Uber Clone Web App\n\n## Steps to Complete:\n\n1. [x] Check Vercel CLI login status (logged in as jayamanisha482-5405)\n2. [x] Clean up malformed vercel.json if needed (fixed to {})\n3. [x] Deploy from build/web with name 'uber' --prod (uploading ~33.5MB to project 'ticket', ongoing - deprecated --name flag used)\n4. [ ] Verify live deployment URL (monitor terminal)\n5. [ ] Test and complete\n\nProgress tracked here after each step.
- 
